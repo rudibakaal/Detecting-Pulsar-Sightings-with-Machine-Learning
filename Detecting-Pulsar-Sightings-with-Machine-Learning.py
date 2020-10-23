@@ -7,7 +7,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from keras.utils.vis_utils import plot_model
 import matplotlib.style as style
-pd.options.display.max_columns = 10
 
 
 all_cols = ['Int Mean','Int Std',' Int Kurtosis','Int Skewness','DM-SNR Mean',
@@ -18,7 +17,6 @@ ds = ds.dropna()
 ds = ds.reindex(np.random.permutation(ds.index))
 
 train = ds
-
 
 train_features = train.values
 train_label = train.pop('Class').values
