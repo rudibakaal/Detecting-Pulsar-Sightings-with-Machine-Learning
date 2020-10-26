@@ -18,7 +18,7 @@ The features in this classification task were the following numeric measures:
 
 With the label being the binary detection outcome:
 
-9. Class
+9. Class; 0 (negative) and 1 (positive)
 
 ## Neural Network Topology and Results Summary
 The binary-crossentropy loss function was leveraged along with the Adam optimizer for this classification problem.
