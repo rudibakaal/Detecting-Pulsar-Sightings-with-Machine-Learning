@@ -18,8 +18,8 @@ ds = ds.reindex(np.random.permutation(ds.index))
 
 train = ds
 
-train_features = train.values
-train_label = train.pop('Class').values
+train_features = train.drop('Class',axis=1)
+train_label = train.pop('Class')
 
 
 input_dim = train_features.shape[1]
