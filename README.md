@@ -1,24 +1,9 @@
 # Detecting Pulsar Sightings with Machine Learning
 
 ## Motivation
-A binary classification algorithm trained on statistical data garnered from the PulsarFeatureLab tool was used to predict pulsar sightings. 
+A binary classification algorithm trained on statistical data garnered from the PulsarFeatureLab tool used to predict pulsar sightings. 
 
 The data set shared here contains 16,259 spurious examples caused by radio frequency interference/noise, and 1,639 real pulsar examples. These examples have all been checked by human annotators.[1][2]
-
-The features in this classification task were the following numeric measures:
-
-1. Mean of the integrated profile.
-2. Standard deviation of the integrated profile.
-3. Excess kurtosis of the integrated profile.
-4. Skewness of the integrated profile.
-5. Mean of the DM-SNR curve.
-6. Standard deviation of the DM-SNR curve.
-7. Excess kurtosis of the DM-SNR curve.
-8. Skewness of the DM-SNR curve.
-
-With the label being the binary detection outcome:
-
-9. Class; 0 (negative) and 1 (positive)
 
 ## Neural Network Topology and Results Summary
 The binary-crossentropy loss function was leveraged along with the Adam optimizer for this classification problem.
