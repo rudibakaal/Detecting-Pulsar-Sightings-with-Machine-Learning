@@ -10,7 +10,7 @@ The binary-crossentropy loss function was leveraged along with the Adam optimize
 
 ![model](https://user-images.githubusercontent.com/48378196/96961401-4be81500-1550-11eb-9cd2-4e0f682c3b56.png)
 
-By just the 2nd epoch, binary accuracy shoots up to >90%. After 30 epochs, both binary and validation accuracy are >99%. 
+By the 3rd epoch both binary and validation accuracy are >99%. 
 
 ![pulsar_sighting_metricspng](https://user-images.githubusercontent.com/48378196/97005319-00525d00-158a-11eb-9a73-8f4f689dc1fe.png)
 
